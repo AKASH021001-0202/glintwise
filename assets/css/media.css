@@ -1,0 +1,132 @@
+/* Tablets and smaller screens */
+@media (max-width: 1024px) {
+    section.hero-slide {
+      height: 80vh;
+    }
+  }
+  
+  /* Mobile devices */
+  @media (max-width: 767px) {
+    section.hero-slide {
+      height: 400px;
+      overflow: hidden;
+    }
+  }@media (max-width: 768px) {
+  
+    .about2_content h2 {
+        font-size: 70px;
+        margin-top: 50px;
+    }
+  }
+  
+  
+  /* Small mobile devices */
+  @media (max-width: 480px) {
+    section.hero-slide {
+      height: 300px;
+    }
+    .about2_content h2 {
+        font-size: 50px;
+       
+    }
+  }
+
+/* For tablets and smaller screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .tooltip_visible,
+    .item-hints {
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .item-hints .hint {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .item-hints .hint-content {
+      width: 250px;
+      font-size: 14px;
+    }
+  
+    .hint-content.do--split-children p {
+      font-size: 20px;
+      width: 250px;
+    }
+  }
+  
+  /* For mobile screens (max-width: 768px) */
+  @media (max-width: 768px) {
+    .tooltip_visible,
+    .item-hints {
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .item-hints .hint {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .item-hints .hint-dot {
+      width: 15px;
+      height: 15px;
+    }
+  
+    .item-hints .hint-radius {
+      width: 180px;
+      height: 180px;
+      margin: -90px 0 0 -90px;
+    }
+  
+    .item-hints .hint-content {
+      width: 200px;
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .hint-content.do--split-children p {
+      font-size: 18px;
+      width: 200px;
+    }
+  }
+  
+  /* For small mobile screens (max-width: 480px) */
+  @media (max-width: 480px) {
+    .tooltip_visible,
+    .item-hints {
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .item-hints .hint {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .item-hints .hint-dot {
+      width: 10px;
+      height: 10px;
+    }
+  
+    .item-hints .hint-radius {
+      width: 120px;
+      height: 120px;
+      margin: -60px 0 0 -60px;
+    }
+  
+    .item-hints .hint-content {
+      width: 180px;
+      font-size: 10px;
+      padding: 5px;
+    }
+  
+    .hint-content.do--split-children p {
+      font-size: 16px;
+      width: 180px;
+    }
+  }
+  

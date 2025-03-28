@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relume - Premium Car Wash</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <style>
+      /* Responsive Styles */
+      body {
+        font-family: Arial, sans-serif;
+        overflow-x: hidden;
+      }
+
+      .hero-section {
+        background: url("car-wash-banner.jpg") center/cover no-repeat;
+        background-color: #f8f9fa;
+        padding: 80px 0;
+        min-height: 400px;
+        height: auto;
+      }
+
+      .gallery-section {
+        min-height: 300px;
+        margin: 15px 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      @media (min-width: 768px) {
+        .hero-section {
+          min-height: 450px;
+        }
+
+        .gallery-section {
+          min-height: 500px;
+        }
+      }
+
+      @media (min-width: 992px) {
+        .gallery-section {
+          min-height: 700px;
+        }
+      }
+
+      .project-description {
+        width: 100%;
+      }
+
+      @media (min-width: 768px) {
+        .project-description {
+          width: 50%;
+          float: right;
+        }
+      }
+
+      .social-icons a {
+        display: inline-block;
+        margin: 0 5px;
+        font-size: 24px;
+        color: #333;
+      }
+
+      .social-icons a:hover i {
+        color: #007bff;
+      }
+
+      .card-icon {
+        background-color: #f8f9fa;
+        color: #dc3545;
+        font-size: 25px;
+        padding: 13px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+      }
+
+      .contact-section .col-md-4 {
+        margin-bottom: 30px;
+      }
+    </style>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Relume</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home Services</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">More Info</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="hero-section text-center d-flex align-items-center justify-content-center"
+    >
+      <div class="container">
+        <h1 class="display-4 fw-bold text-white">Premium Car Wash Services</h1>
+        <p class="lead text-white">Professional care for your vehicle</p>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Project name here</h1>
+          <div class="tags my-4">
+            <span class="badge bg-secondary me-2">Tag one</span>
+            <span class="badge bg-secondary me-2">Tag two</span>
+            <span class="badge bg-secondary">Tag three</span>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p class="project-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+            vitae erat.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image Gallery -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 p-1">
+          <div
+            class="gallery-section"
+            style="background-image: url('download (2).jpg')"
+          ></div>
+        </div>
+        <div class="col-md-6 p-1">
+          <div
+            class="gallery-section"
+            style="background-image: url('polish.jpg')"
+          ></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 p-0">
+          <div
+            class="gallery-section"
+            style="background-image: url('car-wash-hero.jpg')"
+          ></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 p-1">
+          <div
+            class="gallery-section"
+            style="background-image: url('download (2).jpg')"
+          ></div>
+        </div>
+        <div class="col-md-6 p-1">
+          <div
+            class="gallery-section"
+            style="background-image: url('polish.jpg')"
+          ></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 p-0">
+          <div
+            class="gallery-section"
+            style="background-image: url('car-wash-hero.jpg')"
+          ></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 p-0">
+          <div
+            class="gallery-section"
+            style="background-image: url('car-wash-hero.jpg')"
+          ></div>
+        </div>
+      </div>
+
+      <!-- Add more gallery sections as needed -->
+    </div>
+
+    <!-- Call to Action -->
+    <section class="bg-light py-5 my-5">
+      <div class="container text-center">
+        <h2 class="mb-4"><b>Book Your Premium Car Wash</b></h2>
+        <p class="lead mb-4">
+          Subscribe now for exclusive offers and stay updated on our latest
+          services and promotions!
+        </p>
+        <button class="btn btn-primary btn-lg">Book Now</button>
+      </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="contact-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="card-icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <h4>Email</h4>
+            <p>hello@relume.io</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="card-icon">
+              <ion-icon name="headset-outline"></ion-icon>
+            </div>
+            <h4>Phone</h4>
+            <p>+1 (555) 000-0000</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="card-icon">
+              <ion-icon name="map-outline"></ion-icon>
+            </div>
+            <h4>Address</h4>
+            <p>123 Sample St, Sydney NSW 2000 AU</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media -->
+    <div class="container text-center my-4">
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://twitter.com" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://instagram.com" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://linkedin.com" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+    </div>
+
+    <hr class="my-4" />
+
+    <!-- Footer -->
+    <footer class="py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p>&copy; 2024 Relume. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <a href="#" class="text-dark me-3">Privacy Policy</a>
+            <a href="#" class="text-dark me-3">Terms of Service</a>
+            <a href="#" class="text-dark">Cookies Settings</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Ion Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
