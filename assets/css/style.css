@@ -1,27 +1,39 @@
 @font-face {
   font-family: "Poppins";
-  src: url("../assets/fonts/Poppins-Regular.woff2") format("woff2"),
-    url("../assets/fonts/Poppins-Regular.woff") format("woff"),
-    url("../assets/fonts/Poppins-Regular.ttf") format("truetype");
-  font-weight: normal;
+  src: url("../font/poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("../assets/fonts/Poppins-Bold.woff2") format("woff2"),
-    url("../assets/fonts/Poppins-Bold.woff") format("woff"),
-    url("../assets/fonts/Poppins-Bold.ttf") format("truetype");
-  font-weight: bold;
+  src: url("../font/poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
 
 /* Apply to body */
 body {
   font-family: "Poppins", sans-serif;
+  font-weight: 400; /* Ensure regular weight is used */
   overflow-x: hidden;
   color: #1b1b1b;
 }
+
 img {
   max-width: 100%;
 }
@@ -336,7 +348,6 @@ section.hero-slide {
   font-size: 22px !important;
 }
 
-
 .about2_content h5 {
   font-size: 30px;
   padding-bottom: 20px;
@@ -353,8 +364,12 @@ section.about2 {
   justify-content: center;
   padding: 0 0 0 30px;
 }
+.color-hover {
+  font-family: "Roboto", sans-serif;
+}
 .about2_content:hover .color-hover {
   color: #071dea;
+  font-family: "Roboto", sans-serif;
 }
 
 .about2_content .img_rotate2,
@@ -599,4 +614,301 @@ footer {
 }
 .copyright p {
   margin-bottom: 0;
+}
+
+
+/* mycss  */
+
+.about {
+  position: relative;
+  width: 100%;
+  padding: 45px 0 15px 0;
+}
+.about .section-header {
+  margin-bottom: 30px;
+  margin-left: 0;
+}
+
+.about .about-img img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.about .about-content {
+  margin-bottom: 30px;
+}
+
+.about .about-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.about .about-content ul li {
+  margin-bottom: 5px;
+}
+
+.about .about-content ul li i {
+  margin-right: 8px;
+  color: #52b5ed;
+}
+/* facts   */
+.facts {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  margin: 45px 0;
+  display: flex;
+  align-items: center;
+  background: #202C45;
+}
+
+.facts .facts-item {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0;
+}
+
+.facts .facts-item i {
+  margin-top: 15px;
+  font-size: 45px;
+  color: #52b5ed;
+}
+
+.facts .facts-text {
+  padding-left: 20px;
+}
+
+.facts .facts-text h3 {
+  position: relative;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.facts .facts-text h3::after {
+  position: absolute;
+  content: "\f067";
+  top: 0px;
+  right: -25px;
+  color: #ffffff;
+  font-size: 25px;
+
+  font-weight: 900;
+}
+
+.facts .facts-text p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+/* team  */
+.team {
+  position: relative;
+  width: 100%;
+  padding: 45px 0 15px 0;
+}
+
+.team .team-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.team .team-img {
+  position: relative;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+
+.team .team-img img {
+  width: 100%;
+  transition: .3s;
+}
+
+.team .team-item:hover img {
+  transform: scale(1.1);
+}
+
+.team .team-text {
+  position: relative;
+  width: 100%;
+  padding: 35px 30px 30px 30px;
+  text-align: center;
+  background: #52b5ed;
+  border-radius: 0 0 5px 5px;
+  transition: .5s;
+}
+
+.team .team-item:hover .team-text {
+  background: #52b5ed;
+}
+
+.team .team-text h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.team .team-text p {
+  margin: 0;
+  color: #ffffff;
+}
+
+.team .team-social {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: -20px;
+  left: 0;
+  text-align: center;
+  font-size: 0;
+}
+
+.team .team-social a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 3px;
+  padding: 7px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  background: #52b5ed;
+  border-radius: 40px;
+  transition: .5s;
+}
+
+.team .team-social a:hover {
+  color: #202C45;
+}
+
+/* service*/
+.service {
+  position: relative;
+  width: 100%;
+  padding: 45px 0 0 0;
+}
+
+.service .service-item {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 45px;
+}
+
+.service .service-item i {
+  color: #202C45;
+  font-size: 75px;
+  line-height: 75px;
+  margin-bottom: 20px;
+}
+
+.service .service-item [class^="flaticon-"]::before {
+  margin: 0;
+  font-size: 60px;
+  line-height: 60px;
+  background-image: linear-gradient(#52b5ed, #202C45);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: .5s;
+}
+
+.service .service-item h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.service .service-item p {
+  margin: 0;
+}
+/* testinimial*/
+.testimonial {
+  position: relative;
+  width: 100%;
+  padding: 45px 0;
+}
+
+.testimonial .testimonials-carousel {
+  position: relative;
+  width: calc(100% + 30px);
+  margin: 0 -15px;
+}
+
+.testimonial .testimonial-item {
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+}
+
+.testimonial .testimonial-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  transform: scale(.8);
+  transition: 2s;
+}
+
+.testimonial .owl-item.center .testimonial-item img {
+  transform: scale(1);
+}
+
+.testimonial .testimonial-text {
+  width: calc(100% - 100px);
+  padding-left: 20px;
+}
+
+.testimonial .testimonial-text h3 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.testimonial .testimonial-text h4 {
+  color: #777777;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial .testimonial-text p {
+  margin: 0;
+}
+
+.testimonial .testimonial-text p::before {
+  content: "\f10d";
+  font-size: 25px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #52b5ed;
+  margin-right: 10px;
+}
+
+.testimonial .owl-dots {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.testimonial .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  background: #dddddd;
+}
+
+.testimonial .owl-dot.active {
+  background: #52b5ed;
 }

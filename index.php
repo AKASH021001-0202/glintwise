@@ -96,7 +96,7 @@
           <h2 class="color-hover">Future Expansion </h2>
           <h5 class="color-hover">What’s Next Glintwise India?</h5>
           <p>
-            We’re not just stopping at car washes – we’re building a complete ecosystem of doorstep cleaning services. Coming Soon: Laundry Services <span class="color-hover">(₹999/month)</span> – Doorstep pickup & premium washing. Home Cleaning Services – Deep home cleaning for urban households. Bike Wash Plans – Weekly thrice wash service for <span class="color-hover"> ₹199/month. </span>
+            We’re not just stopping at car washes – we’re building a complete ecosystem of doorstep cleaning services. Coming Soon: Laundry Services <span class="color-hover">(₹ 999/month)</span> – Doorstep pickup & premium washing. Home Cleaning Services – Deep home cleaning for urban households. Bike Wash Plans – Weekly thrice wash service for <span class="color-hover"> ₹199/month. </span>
           </p>
         </div>
 

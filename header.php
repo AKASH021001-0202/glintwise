@@ -11,7 +11,7 @@
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom CSS -->
 <link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/media.css"> <!-- Uncommented -->
+<link rel="stylesheet" href="assets/css/media.css"> 
 <!-- Font Awesome -->
 <link rel="stylesheet" href="assets/css/font-awesome.css">
 
